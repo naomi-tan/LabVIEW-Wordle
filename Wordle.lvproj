@@ -23,6 +23,12 @@
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Settings.ctl" Type="VI" URL="../TypeDefs/Settings.ctl"/>
 			<Item Name="LookupResult.ctl" Type="VI" URL="../TypeDefs/LookupResult.ctl"/>
+			<Item Name="White.ctl" Type="VI" URL="../TypeDefs/White.ctl"/>
+			<Item Name="Grey.ctl" Type="VI" URL="../TypeDefs/Grey.ctl"/>
+			<Item Name="Yellow.ctl" Type="VI" URL="../TypeDefs/Yellow.ctl"/>
+			<Item Name="Green.ctl" Type="VI" URL="../TypeDefs/Green.ctl"/>
+			<Item Name="Red.ctl" Type="VI" URL="../TypeDefs/Red.ctl"/>
+			<Item Name="LightGrey.ctl" Type="VI" URL="../TypeDefs/LightGrey.ctl"/>
 		</Item>
 		<Item Name="data" Type="Folder">
 			<Item Name="wordle.db" Type="Document" URL="../data/wordle.db"/>
@@ -51,6 +57,7 @@
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -70,7 +77,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AED82C6-9BC7-416E-B78F-8DEF218140D7}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Wordle.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/exe/NI_AB_PROJECTNAME.exe</Property>
@@ -162,7 +169,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{DE208AD0-9B6F-4C46-9617-525D1A0212F7}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Wordle</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">24348004</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Key Engineering Solutions Limited</Property>
